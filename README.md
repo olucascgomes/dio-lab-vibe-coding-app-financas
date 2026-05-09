@@ -73,13 +73,61 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
+- Seu **prompt final** (PRD);:
+# PRD: Aplicativo de Finanças Pessoais Conversacional
+
+## 1. Objetivo
+Um web app focado em dispositivos móveis onde os usuários gerenciam finanças por meio de chat em linguagem natural, em vez de formulários manuais[cite: 1].
+
+## 2. Funcionalidades Principais (MVP)
+### A. Interface Conversacional (Chat)
+- Campo de entrada para linguagem natural (ex: "Gastei 50 com pizza" ou "Recebi 2000 de salário")[cite: 1].
+- Lógica: Extrair {valor}, {descrição} e {categoria} do texto[cite: 1].
+- Feedback visual imediato: Um card de resumo aparece após a entrada para confirmação do usuário[cite: 1].
+
+### B. Dashboard
+- Exibição de Saldo em tempo real (Receita Total - Despesas Totais)[cite: 1].
+- Gráficos Interativos: Gastos mensais por categoria (Gráfico de Rosca/Pizza) e tendências semanais (Gráfico de barras)[cite: 1].
+- Ações Rápidas: Atalhos para entradas comuns[cite: 1].
+
+### C. Categorização Inteligente
+- Motor de classificação automática (Alimentação, Transporte, Contas, Lazer, Renda)[cite: 1].
+- Usuários podem editar manualmente a categoria se a previsão da IA estiver incorreta[cite: 1].
+
+### D. Metas Financeiras
+- Criar e acompanhar metas com barras de progresso (ex: "Reserva de Emergência")[cite: 1].
+- Conselhos do "Agente Financeiro": Dicas curtas em texto geradas com base nos dados de gastos[cite: 1].
+
+## 3. Navegação e UI/UX
+- Barra de Navegação Inferior: [Dashboard, Chat, Histórico, Metas][cite: 1].
+- Tema: Limpo, moderno e de alto contraste (acessível)[cite: 1].
+- Layout responsivo para dispositivos móveis[cite: 1].
+
+## 4. Restrições Técnicas
+- Tech Stack: React, Tailwind CSS, Lucide Icons, componentes Shadcn/UI[cite: 1].
+- Gerenciamento de Dados: Estado local ou Supabase (se disponível) para persistência de transações[cite: 1].
+- Processamento: Implementação de um parser robusto para lidar com formatos de moeda brasileira (BRL) e verbos financeiros comuns em português[cite: 1].
+
+## 5. Instruções de Implementação para o Lovable
+1. Estruturar um app React com uma barra de navegação inferior persistente[cite: 1].
+2. Construir a visualização de 'Chat' como o principal método de entrada usando um histórico de mensagens rolável[cite: 1].
+3. Usar um estado compartilhado (Context API) para que as entradas do chat atualizem imediatamente os gráficos na visualização do 'Dashboard'[cite: 1].
+4. Aplicar uma paleta de cores profissional: Azul Profundo/Indigo para branding, Esmeralda para receitas e Rosa/Coral para despesas[cite: 1].
+
+- Prints ou pequenos vídeos das interações com a IA;
+
+
+
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
+  - O que funcionou bem?
+ De modo geral, o app funcionou muito bem.
+  
+  - O que não funcionou como o esperado?
+ Em alguns casos, o app reconheceu de forma incorreta os valores digitados.
+  
   - O que aprendeu sobre conversar com IAs?
+A qualidade do prompt é fundamental para atingir os resultados esperados.
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
