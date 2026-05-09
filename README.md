@@ -115,10 +115,11 @@ Um web app focado em dispositivos móveis onde os usuários gerenciam finanças 
 4. Aplicar uma paleta de cores profissional: Azul Profundo/Indigo para branding, Esmeralda para receitas e Rosa/Coral para despesas[cite: 1].
 
 - Prints ou pequenos vídeos das interações com a IA;
+![Print do app](https://github.com/olucascgomes/dio-lab-vibe-coding-app-financas/blob/24ee965fdd9ba2180fba394cbe543c515b2cd05a/Captura%20de%20tela%202026-05-08%20211914.png)
 
+- Um resumo do que o seu **App de Finanças Pessoais** faz;
+Meu app é capaz de controlar as finanças pessoais usando conversas com a IA. É possível analisar gráficos ou pedir para a própria IA fazer isso para mim.
 
-
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
   - O que funcionou bem?
  De modo geral, o app funcionou muito bem.
